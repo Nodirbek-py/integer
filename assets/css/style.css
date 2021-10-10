@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Rufina";
+  min-height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+button,
+input,
+a,
+li,
+select,
+option {
+  font-family: "Rufina";
+}
+section.team {
+  margin: 12rem 0;
+}
+.btn {
+  padding: 5px 55px;
+  font-size: 1.5rem;
+  color: #404040;
+  background: #b3e3e1;
+}
+.cursor {
+  cursor: pointer;
+}
+.black-text {
+  color: #303030;
+}
+.grey-text {
+  color: #626262 !important;
+}
+.skylar-text {
+  color: #01cac2;
+}
+.heading {
+  line-height: 70px;
+  font-size: 50px;
+}
+.main-text {
+  color: #626262;
+}
+.md-text {
+  font-size: 2rem;
+}
+.full-line {
+  height: 2px;
+  background: #303030;
+}
+.vertical-line {
+  height: 100%;
+  display: block;
+  background: #303030;
+  width: 2px;
+}
+.main-img{
+  filter: grayscale(1);
+}
+.main-img:hover{
+  filter: none;
+  transition: 1s;
+}
+/* Navbar settings */
+nav {
+  display: flex;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 70px;
+}
+.nav-border {
+  position: fixed;
+  background: #fff;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+.nav-logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+.link-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 2rem;
+}
+
+.nav-link {
+  color: #303030;
+  font-family: "Red Rose";
+  margin: 0 1.5rem;
+  line-height: 2rem;
+}
+
+/* Header part */
+header {
+  height: 100vh;
+}
+.header {
+  max-width: 1440px;
+  padding-top: 50px;
+  margin: 0 auto;
+  height: 50%;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  padding-top: 250px;
+}
+.header-side {
+  width: 50%;
+}
+.header-side:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Main settings */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.line {
+  height: 2px;
+  background: #303030;
+  width: 100%;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  height: 65px;
+}
+.nav-number {
+  align-items: center;
+  display: flex;
+  height: 65px;
+  width: 18%;
+}
+.nav-number p {
+  margin: 0 3rem;
+}
+.skylar-box {
+  display: inline-block;
+  height: 65px;
+  width: 100px;
+  background: #01cac2;
+}
+.main-section {
+  display: flex;
+  position: relative;
+}
+.main-section aside {
+  width: 18%;
+  display: flex;
+  justify-content: center;
+}
+.main-section .main-text {
+  margin: 2rem 3rem;
+}
+.center-heading {
+  display: flex;
+  align-items: center;
+  height: 250px;
+}
+.center {
+  width: 82%;
+}
+.course {
+  height: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.course-title {
+  display: flex;
+  align-items: center;
+}
+.course-detail {
+  display: none;
+}
+
+/* Team Members */
+
+.team .center-heading {
+  border: none;
+}
+
+.team-container {
+  display: flex;
+  padding: 0 3rem;
+  justify-content: space-between;
+}
+.team-member {
+  padding-bottom: 1rem;
+}
+.member-img {
+  filter: grayscale(1);
+  aspect-ratio: 3 / 4;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 3px solid #303030;
+}
+.member-img:hover {
+  filter: none;
+  transition: 1s;
+}
+/* Footer, Contact configuration */
+.contact {
+  border-bottom: 3px solid #303030;
+  margin-bottom: 4rem;
+}
+.contact aside {
+  flex-direction: column;
+  padding: 2rem 0;
+}
+.column {
+  flex-direction: column;
+  align-items: start;
+}
+.contact-text {
+  font-size: 1.5rem;
+}
